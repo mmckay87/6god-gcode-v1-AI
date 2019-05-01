@@ -10,7 +10,8 @@
 #ifndef INFINITYDOMAINSRADICATED_H_
 #define INFINITYDOMAINSRADICATED_H_
 
-#include <ifstream>
+#include <iostream>
+#include <string>
 #include <cmath>
 #include <thread>
 #include <libsocket>
@@ -34,8 +35,9 @@ class InfinityDomainsRD : public IDRTemplate
 
 		
 	protected:
-		bool static OpenPort();
-		bool static ClosePort();
+		// Both the client and the server can execute(or attempt to) these functions
+		bool OpenPort(string host, long long int port, string Authkey);
+		bool ClosePort()*;
 	private:
 	
 		std::vector<char> IpAddress = {0,0,0,0};
@@ -53,8 +55,8 @@ class InfinityDomainsRD : public IDRTemplate
 										"gxx", \
 										"icc", \
 										"icpc", \
-										"clang", \ 
-										"clangxx", \ 
+										"[clan]g", \ 
+										"[clan]gxx", \ 
 										"nvcc", \
 										"gfortran", \
 										"pgfortan", \
