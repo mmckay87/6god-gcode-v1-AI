@@ -1,3 +1,12 @@
+/************************************************
+***    Author @dday87==@mmckay87
+**** INFINITY DOMAINS RADICATED TECHNOLOGIES LTD.
+***  Matthew J. "Jacobian" McKay <dday87@uvic.ca>   
+*** Theory in progress - Do Not Disturb (just kidding!) 
+**** Disturb away folks! Drop me a line at my email.
+************************************************/
+
+
 #ifndef INFINITYDOMAINSRADICATED_H_
 #define INFINITYDOMAINSRADICATED_H_
 
